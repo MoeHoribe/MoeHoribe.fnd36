@@ -1,0 +1,140 @@
+/* 背景 */
+body {
+  background-image: url(flower-back1470.jpg);
+  background-repeat: no-repeat;
+  background-size: 970px; 
+  background-color:lightpink;
+}
+
+/* メンバーボタン */
+#menberBotton button {
+  width: 90px;
+  height: 60px;
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+  left: 165px;
+} 
+#menberBotton {
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  top: -10px;
+  left: 820px;
+}
+
+/* 行先コンボボックス */
+#destination {
+  width: 200px;
+  height: 70px;
+  font-size: 30px;
+  position: absolute;
+  top: 380px;
+  left: 1025px;
+}
+
+/* House */
+#house {
+  position: absolute;
+  top: 450px;
+  left: 30px;
+}
+#house input {
+  border-radius: 10px; 
+  background-color: white;
+  border: 4px double black; 
+  padding: 20px;
+  font-size: 35px;
+  height: 80px;
+  width: 500px;
+  text-align: center;
+}
+#houseButtonId {
+  width: 130px;
+  font-size: 20px;
+}
+
+/* Dojo */
+#dojo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+#dojo input {
+  border-radius: 10px; 
+  background-color: white;
+  border: 4px double black; 
+  padding: 20px;
+  font-size: 35px;
+  height: 300px;
+  width: 80px;
+  text-align: center;
+}
+#dojoButtonId {
+  width: 130px;
+  font-size: 20px;
+}
+
+/* Xr */
+#xr {
+  position: absolute;
+  top: 30px;
+  left: 330px;
+}
+#xr input {
+  border-radius: 10px; 
+  background-color: white;
+  border: 4px double black; 
+  padding: 20px;
+  font-size: 35px;
+  height: 300px;
+  width: 80px;
+  text-align: center;
+}
+#xrButtonId {
+  width: 130px;
+  font-size: 20px;
+}
+
+/* Other */
+#other {
+  position: absolute;
+  top: 30px;
+  left: 630px;
+}
+#other input {
+  border-radius: 10px; 
+  background-color: white;
+  border: 4px double black; 
+  padding: 20px;
+  font-size: 30px;
+  height: 300px;
+  width: 80px;
+  text-align: center;
+}
+#otherButtonId {
+  width: 130px;
+  font-size: 20px;
+}
+
+#submit {
+  width: 200px;
+  height: 80px;
+  font-size: 50px;
+  background-color: white;
+  border-radius: 50px;
+  position: absolute;
+  top: 470px;
+  left: 1025px;
+}
+
+#move {
+  width: 200px;
+  height: 80px;
+  font-size: 50px;
+  background-color: white;
+  border-radius: 50px;
+  position: absolute;
+  top: 570px;
+  left: 1025px;
+}
