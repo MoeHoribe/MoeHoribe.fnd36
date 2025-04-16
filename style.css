@@ -14,6 +14,8 @@ body {
   position: relative;
   top: 30px;
   left: 165px;
+  background-color: white;
+  display: inline-block;
 } 
 #menberBotton {
   width: 300px;
@@ -42,16 +44,18 @@ body {
 #house input {
   border-radius: 10px; 
   background-color: white;
-  border: 4px double black; 
+  border: 4px double rgb(252, 7, 146); 
   padding: 20px;
   font-size: 35px;
   height: 80px;
   width: 500px;
   text-align: center;
+  font-family: 'Palatino Linotype';
 }
 #houseButtonId {
   width: 130px;
   font-size: 20px;
+  background-color: white;
 }
 
 /* Dojo */
@@ -63,16 +67,18 @@ body {
 #dojo input {
   border-radius: 10px; 
   background-color: white;
-  border: 4px double black; 
+  border: 4px double rgb(252, 7, 146); 
   padding: 20px;
   font-size: 35px;
   height: 300px;
   width: 80px;
   text-align: center;
+  font-family: 'Palatino Linotype';
 }
 #dojoButtonId {
   width: 130px;
   font-size: 20px;
+  background-color: white;
 }
 
 /* Xr */
@@ -84,16 +90,18 @@ body {
 #xr input {
   border-radius: 10px; 
   background-color: white;
-  border: 4px double black; 
+  border: 4px double rgb(252, 7, 146); 
   padding: 20px;
   font-size: 35px;
   height: 300px;
   width: 80px;
   text-align: center;
+  font-family: 'Palatino Linotype';
 }
 #xrButtonId {
   width: 130px;
   font-size: 20px;
+  background-color: white;
 }
 
 /* Other */
@@ -105,23 +113,25 @@ body {
 #other input {
   border-radius: 10px; 
   background-color: white;
-  border: 4px double black; 
+  border: 4px double rgb(252, 7, 146); 
   padding: 20px;
   font-size: 30px;
   height: 300px;
   width: 80px;
   text-align: center;
+  font-family: 'Palatino Linotype';
 }
 #otherButtonId {
   width: 130px;
   font-size: 20px;
+  background-color: white;
 }
 
 #submit {
   width: 200px;
   height: 80px;
   font-size: 50px;
-  background-color: white;
+  background-color:khaki;
   border-radius: 50px;
   position: absolute;
   top: 470px;
@@ -132,7 +142,7 @@ body {
   width: 200px;
   height: 80px;
   font-size: 50px;
-  background-color: white;
+  background-color:lightblue;
   border-radius: 50px;
   position: absolute;
   top: 570px;
