@@ -10,42 +10,56 @@
 </head>
 
 <body>
-  <!-- コンボボックス作成 -->
-  <select name="destination" id="destination">
-    <option>ハウス</option>
-    <option>Dojo</option>
-    <option>XR</option>
-    <option>その他</option>
-  </select>
-  <!-- 登録ボタン作成 -->
-  <from id="registrationForm"></from>
-  <button type="submit" id="copy" onclick="comboSelect()" form="registrationForm">登録</button>
-
   <!-- 行先四角作成 -->
   <div id="target">
     <div id="house">
-      <input type="text" value="ハウス" style="border-radius: 10px; border: 4px double black; font-size: 100%; padding: 20px;">
+      <input type="text" value="House">
     </div>
     <div id="dojo">
-      <input type="text" value="Dojo" style="border-radius: 10px; border: 4px double black; font-size: 100%; padding: 20px;">
+      <input type="text" value="Dojo">
     </div>
     <div id="xr">
-      <input type="text" value="XR" style="border-radius: 10px; border: 4px double black; font-size: 100%; padding: 20px;">
+      <input type="text" value="XR">
     </div>
     <div id="other">
-      <input type="text" value="その他" style="border-radius: 10px; border: 4px double black; font-size: 100%; padding: 20px;">
+      <input type="text" value="Other">
     </div>
+  </div>
     
     <!-- 名前ボタン作成 -->
-    <div>
-      <button id="okuBotton">OKMR工長</button> 
-    </div>
+  <div id="menberBotton">
+    <button id="okuBotton">OKMR<br>工長</button> 
+    <button>HRIS<br>組長</button> 
+    <button>BTO<br>TL</button> 
+    <button>FJMT<br>さん</button> 
+    <button>OKDT<br>さん</button> 
+    <button>MYTK<br>さん</button> 
+    <button>HRE<br>さん</button> 
+    <button>FKT<br>さん</button> 
+    <button>MTN<br>さん</button> 
+    <button>GTO<br>さん</button> 
+    <button>TOSK<br>さん</button> 
+    <button>FRS<br>さん</button> 
+    <button>HRB<br>さん</button> 
+    <button>FJI<br>さん</button> 
   </div>
 
   <!-- 移動ボタン作成 -->
-  <button type="submit" onclick="comboSelect()">移動</button>
+  <button id="move" type="submit" onclick="comboSelect()">Move</button>
 
-  <!-- Javascriptと接続 -->
-  <script src = "script.js"></script>
+  <!-- コンボボックス作成 -->
+  <select name="destination" id="destination">
+    <option>House</option>
+    <option>Dojo</option>
+    <option>XR</option>
+    <option>Other</option>
+  </select>
+
+  <!-- 登録ボタン作成 -->
+  <from id="registrationForm"></from>
+  <button type="submit" id="submit" onclick="comboSelect()" form="registrationForm">Submit</button>
+
+    <!-- Javascriptと接続 -->
+    <script src = "script.js"></script>
 </body>
 </html>
