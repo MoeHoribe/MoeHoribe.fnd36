@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>presentation</title>
+
+  <!-- CSSと接続 -->
+  <link rel = "stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- コンボボックス作成 -->
+  <select name="destination" id="destination">
+    <option>ハウス</option>
+    <option>Dojo</option>
+    <option>XR</option>
+    <option>その他</option>
+  </select>
+  <!-- 登録ボタン作成 -->
+  <from id="registrationForm"></from>
+  <button type="submit" id="copy" onclick="comboSelect()" form="registrationForm">登録</button>
+
+  <!-- 行先四角作成 -->
+  <div id="target">
+    <div id="house">
+      <input type="text" value="ハウス" style="border-radius: 10px; border: 4px double black; font-size: 100%; padding: 20px;">
+    </div>
+    <div id="dojo">
+      <input type="text" value="Dojo" style="border-radius: 10px; border: 4px double black; font-size: 100%; padding: 20px;">
+    </div>
+    <div id="xr">
+      <input type="text" value="XR" style="border-radius: 10px; border: 4px double black; font-size: 100%; padding: 20px;">
+    </div>
+    <div id="other">
+      <input type="text" value="その他" style="border-radius: 10px; border: 4px double black; font-size: 100%; padding: 20px;">
+    </div>
+    
+    <!-- 名前ボタン作成 -->
+    <div>
+      <button id="okuBotton">OKMR工長</button> 
+    </div>
+  </div>
+
+  <!-- 移動ボタン作成 -->
+  <button type="submit" onclick="comboSelect()">移動</button>
+
+  <!-- Javascriptと接続 -->
+  <script src = "script.js"></script>
+</body>
+</html>
