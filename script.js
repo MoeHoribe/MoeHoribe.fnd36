@@ -2,7 +2,7 @@
 // 1行目に記載している 'use strict' は削除しないでください
 
 //奥村ボタン作成
-const button = document.getElementById("okuBotton");
+const button = document.getElementById("oku_botton");
 //ボタンカラーチェンジ用配列
 const colors = ["orange", "yellow"];
 //ボタンクリック処理  ↓関数に入れれそう
@@ -18,6 +18,7 @@ function comboSelect() {
 
   //コンボボックスで選択した値と一致する行先四角の場所を取得
   const colection = document.getElementById("target").children;
+  console.log(colection);
   
   //オブジェクトをループ処理
   for (const key in colection) {
@@ -25,7 +26,8 @@ function comboSelect() {
     let destinationColection = colection[key].children;
     //console.log(destinationColection);
     for (const key2 in destinationColection) {
-      let forDestination = destinationColection[key2].value;
+      let forDestination = destinationColection[key2].innerHTML;
+      //console.log(key2);
       //console.log(forDestination);
       //console.log(document.getElementById("target").children);
       //コンボボックスの値がハウスの時に位置を移動
@@ -53,7 +55,7 @@ function comboSelect() {
       const dojoId= document.getElementById("dojoButtonId");
       const xrId = document.getElementById("xrButtonId");
       const otherId = document.getElementById("otherButtonId");
-      console.log(houseColection.length);
+      //console.log(houseColection.length);
       //それぞれのsikakuを確認して1つでもボタンがあったら削除
       if (houseColection.length + dojoColection.length + xrColection.length + otherColection.length > 5 && houseColection.length === 2) {
         console.log("保存不可");
@@ -80,6 +82,7 @@ function addButtonHouse() {
   //ボタン名
   btn.innerHTML = "OKMR工長";
   btn.id = "houseButtonId";
+  btn.style.left = "40px";
   //ボタンクリック処理  ↓関数に入れれそう
   btn.addEventListener("click", () => {
     btn.style.background = colors[Math.floor(Math.random() * colors.length)];
@@ -87,6 +90,7 @@ function addButtonHouse() {
   //ボタン作成場所取得
   //console.log(document.getElementById("house"));
   const target = document.getElementById("house");
+  //console.log(target);
   //ボタン追加
   target.appendChild(btn);
 }
@@ -104,6 +108,7 @@ function addButtonDojo() {
   });
   //ボタン作成場所取得
   const target = document.getElementById("dojo");
+  //console.log(target);
   //ボタン追加
   target.appendChild(btn);
 }
@@ -141,4 +146,5 @@ function addButtonOther() {
   //ボタン追加
   target.appendChild(btn);
 }
+
 
