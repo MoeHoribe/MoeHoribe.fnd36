@@ -2,23 +2,23 @@
 body {
   background-image: url(flower-back1470.jpg);
   background-repeat: no-repeat;
-  background-size: 970px; 
+  background-size: 1250px; 
   background-color:lightpink;
 }
 
 /* メンバーボタン */
-#menberBotton button {
-  width: 90px;
-  height: 60px;
-  font-size: 20px;
+#menber_botton button {
+  width: 130px;
+  height: 80px;
+  font-size: 30px;
   position: relative;
   top: 30px;
-  left: 165px;
+  left: 460px;
   background-color: white;
   display: inline-block;
 } 
-#menberBotton {
-  width: 300px;
+#menber_botton {
+  width: 450px;
   height: 500px;
   position: absolute;
   top: -10px;
@@ -27,124 +27,257 @@ body {
 
 /* 行先コンボボックス */
 #destination {
-  width: 200px;
-  height: 70px;
-  font-size: 30px;
+  width: 350px;
+  height: 100px;
+  font-size: 50px;
   position: absolute;
-  top: 380px;
-  left: 1025px;
+  top: 470px;
+  left: 1300px;
 }
 
 /* House */
 #house {
   position: absolute;
-  top: 450px;
+  top: 500px;
   left: 30px;
 }
-#house input {
+#house p {
+  position: absolute;
   border-radius: 10px; 
   background-color: white;
   border: 4px double rgb(252, 7, 146); 
   padding: 20px;
-  font-size: 35px;
-  height: 80px;
-  width: 500px;
-  text-align: center;
+  font-size: 70px;
+  height: 120px;
+  width: 800px;
   font-family: 'Palatino Linotype';
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #houseButtonId {
-  width: 130px;
-  font-size: 20px;
+  position: absolute;
+  top: 260px;
+  left: 160px;
+  width: 230px;
+  height: 50px;
+  font-size: 40px;
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 
 /* Dojo */
 #dojo {
   position: absolute;
-  top: 30px;
+  top: 00px;
   left: 30px;
 }
-#dojo input {
+#dojo p {
+  position: absolute;
   border-radius: 10px; 
   background-color: white;
   border: 4px double rgb(252, 7, 146); 
   padding: 20px;
-  font-size: 35px;
-  height: 300px;
-  width: 80px;
-  text-align: center;
+  font-size: 55px;
+  height: 400px;
+  width: 110px; 
   font-family: 'Palatino Linotype';
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #dojoButtonId {
-  width: 130px;
-  font-size: 20px;
+  position: absolute;
+  top: 260px;
+  left: 160px;
+  width: 230px;
+  height: 50px;
+  font-size: 40px;
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Xr */
 #xr {
   position: absolute;
-  top: 30px;
-  left: 330px;
+  top: 0px;
+  left: 430px;
 }
-#xr input {
+#xr p {
+  position: absolute;
   border-radius: 10px; 
   background-color: white;
   border: 4px double rgb(252, 7, 146); 
   padding: 20px;
-  font-size: 35px;
-  height: 300px;
-  width: 80px;
-  text-align: center;
+  font-size: 55px;
+  height: 400px;
+  width: 110px; 
   font-family: 'Palatino Linotype';
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #xrButtonId {
-  width: 130px;
-  font-size: 20px;
+  position: absolute;
+  top: 260px;
+  left: 160px;
+  width: 230px;
+  height: 50px;
+  font-size: 40px;
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Other */
 #other {
   position: absolute;
-  top: 30px;
-  left: 630px;
+  top: 0px;
+  left: 830px;
 }
-#other input {
+#other p{
   border-radius: 10px; 
   background-color: white;
   border: 4px double rgb(252, 7, 146); 
   padding: 20px;
-  font-size: 30px;
-  height: 300px;
-  width: 80px;
-  text-align: center;
+  font-size: 55px;
+  height: 400px;
+  width: 110px; 
   font-family: 'Palatino Linotype';
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #otherButtonId {
-  width: 130px;
-  font-size: 20px;
+  position: absolute;
+  top: 260px;
+  left: 160px;
+  width: 230px;
+  height: 50px;
+  font-size: 40px;
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #submit {
-  width: 200px;
-  height: 80px;
-  font-size: 50px;
+  width: 300px;
+  height: 100px;
+  font-size: 70px;
   background-color:khaki;
   border-radius: 50px;
   position: absolute;
-  top: 470px;
-  left: 1025px;
+  top: 600px;
+  left: 1325px;
 }
 
 #move {
-  width: 200px;
-  height: 80px;
-  font-size: 50px;
+  width: 300px;
+  height: 100px;
+  font-size: 70px;
   background-color:lightblue;
   border-radius: 50px;
   position: absolute;
-  top: 570px;
-  left: 1025px;
+  top: 750px;
+  left: 1325px;
+}
+
+/* 桜降らせたい場所 */
+#sakura_block {
+  width: 72%;
+}
+#sakura_block .sakura_parts {
+  position: relative;
+}
+#sakura_block .sakura_parts img {
+  position: absolute;
+}
+#sakura_block .sakura_parts img:nth-child(2n+1) {
+  width: 50px;
+
+}
+#sakura_block .sakura_parts img:nth-child(2n) {
+  width: 30px;
+}
+/* 桜表示位置 */
+img.parts1 {
+  top: 0; 
+  left: 5%;
+}
+img.parts2 {
+  top: 0; 
+  left: 22%;
+}
+img.parts3 {
+  top: 0; 
+  left: 25%;
+}
+img.parts4 {
+  top: 0; 
+  left: 53%;
+}
+img.parts5 {
+  top: 0; 
+  left: 71%;
+}
+img.parts6 {
+  top: 0; 
+  left: 88%;
+}
+img.parts7 {
+  top: 0; 
+  left: 92%;
+}
+img.parts8 {
+  top: 0; 
+  left: 99%;
+}
+/* 桜背景アニメーション */
+@keyframes sakura {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    transform: translate(3px, 30px) rotate(20deg);
+    opacity: 1;
+  }
+  30% {
+    transform: translate(0px, 50px) rotate(50deg);
+  }
+  50% {
+    transform: translate(-20px, 100px) rotate(150deg);
+  }
+  70% {
+    transform: translate(-40px, 150px) rotate(-50deg);
+    opacity: .8;
+  }
+  90% {
+    transform: translate(-60px, 200px) rotate(-180deg);
+  }
+  100% {
+    transform: translate(-70px, 230px);
+    opacity: 0;
+  }
+}
+
+.sakura_parts img {
+  animation: sakura linear 5s infinite;
+  opacity: 0;
+}
+
+img.parts1,img.parts4,img.parts5 {
+  animation-delay: 0s;
+} 
+img.parts2,img.parts6 {
+  animation-delay: 3.5s;
+}
+img.parts7,img.parts3,img.parts8 {
+  animation-delay: 1.0s;
 }
